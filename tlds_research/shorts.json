@@ -1,0 +1,161 @@
+{
+    "live": {
+        "price": 2.49,
+        "domains": [
+            "Evil olive.",
+            "No devil lived on."
+        ]
+    },
+    "men": {
+        "price": 3.32,
+        "domains": [
+            "Name now one man.",
+            "Name no-one man."
+        ]
+    },
+    "top": {
+        "price": 3.32,
+        "domains": [
+            "He stops spots, eh?",
+            "Spot pal's laptops."
+        ]
+    },
+    "art": {
+        "price": 4.07,
+        "domains": [
+            "Detartrated.",
+            "Strap on no parts.",
+            "Straw warts.",
+            "Strategy: get arts."
+        ]
+    },
+    "red": {
+        "price": 4.16,
+        "domains": [
+            "Derek, I like red!"
+        ]
+    },
+    "me": {
+        "price": 4.91,
+        "domains": [
+            "Emil saw a slime.",
+            "He maps spam, eh?",
+            "Gateman's nametag.",
+            "Go home, demo hog.",
+            "No lemon, no melon."
+        ]
+    },
+    "dog": {
+        "price": 4.99,
+        "domains": [
+            "God damn mad dog.",
+            "Go, do, dog!"
+        ]
+    },
+    "in": {
+        "price": 5.66,
+        "domains": [
+            "Senile felines.",
+            "Can I attain a 'C'?"
+        ]
+    },
+    "de": {
+        "price": 5.74,
+        "domains": [
+            "Ed is on no side.",
+            "He did, eh?",
+            "I led deli.",
+            "Redivider.",
+            "Ed, I hide.",
+            "Go home, demo hog."
+        ]
+    },
+    "co": {
+        "price": 6.66,
+        "domains": [
+            "Draw, O coward."
+        ]
+    },
+    "name": {
+        "price": 7.41,
+        "domains": [
+            "Gateman's nametag."
+        ]
+    },
+    "one": {
+        "price": 7.41,
+        "domains": [
+            "Lonely Tylenol.",
+            "Name now one man.",
+            "Name no-one man."
+        ]
+    },
+    "parts": {
+        "price": 10.0,
+        "domains": [
+            "Strap on no parts."
+        ]
+    },
+    "ca": {
+        "price": 10.0,
+        "domains": [
+            "Pint a' Catnip.",
+            "Was it a cat I saw?"
+        ]
+    },
+    "vote": {
+        "price": 12.5,
+        "domains": [
+            "Rise to vote, sir."
+        ]
+    },
+    "gift": {
+        "price": 14.09,
+        "domains": [
+            "Gift fig."
+        ]
+    },
+    "ch": {
+        "price": 15.0,
+        "domains": [
+            "Detach cat, Ed."
+        ]
+    },
+    "li": {
+        "price": 15.0,
+        "domains": [
+            "Emil saw a slime.",
+            "Live not on evil.",
+            "Senile felines.",
+            "Derek, I like red!"
+        ]
+    },
+    "id": {
+        "price": 16.59,
+        "domains": [
+            "He did, eh?",
+            "Redivider.",
+            "Timid, I'm it.",
+            "Ed, I hide.",
+            "I did, did I?"
+        ]
+    },
+    "baby": {
+        "price": 16.67,
+        "domains": [
+            "Drowsy baby's word."
+        ]
+    },
+    "es": {
+        "price": 17.51,
+        "domains": [
+            "Dee saw a seed.",
+            "Is sensuousness I?",
+            "Rise to vote, sir.",
+            "Senile felines.",
+            "Draw noses onward!",
+            "See referees.",
+            "Ye slew Wesley."
+        ]
+    }
+}

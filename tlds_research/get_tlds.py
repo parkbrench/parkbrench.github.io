@@ -18,9 +18,9 @@ for item in tlds_info:
         tlds_stripped_list.append(stripped_tld)
         next_item = stripped_tld 
     else: 
-        if "\xe2\x82\xac" not in item and "?" not in item:
+        if "€" not in item and "?" not in item:
             raise ValueError("not a price or question mark: " + item)
-        tlds_price_map[next_item] = float(item.strip("\xe2\x82\xac").replace(",","").replace("?","0"))
+        tlds_price_map[next_item] = float(item.strip("€").replace(",","").replace("?","0"))
     i += 1
 
 
@@ -52,8 +52,11 @@ tld_sorted = sorted(tld_pal_dict, key=lambda a: tld_pal_dict[a][0])
 tld_pal_dict_sorted = {}
 
 for tld in tld_sorted:
+    # breakpoint()n
+    # print(tld_pal_dict[tld], "\n\n")
     tld_pal_dict_sorted[tld] = tld_pal_dict[tld]
 
 #print(tld_sorted)
-pprint(tld_pal_dict_sorted)
+with open('sorted.json', 'w') as fout:
+    json.dump(tld_pal_dict_sorted, fout, indent=4)
 
