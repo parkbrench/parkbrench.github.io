@@ -16,7 +16,7 @@
   </filter>
 </svg>
 <body>
-    <img alt='' onload="hideUri('flowers', 'assets/images/flowers.jpg')" src='assets/images/flowers.jpg' style="display: none;"/>
+    
     <div class="section mr-6 ml-6">
 
       <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
@@ -46,9 +46,10 @@
             <div class="column has-text-centered">
                 <figure class="image is-256">
 
-                    <div id="flowers" onload="setUri('flowers')" class="blurme" style="background-size: cover; height: 300px; width: 400px;"> 
-                        <!--img src="assets/images/flowers.jpg" alt="Flower mosaic in Hanoi, Vietnam"-->
+                    <div id="flowers" class="blurme" style="background-size: cover;"> 
+                        <img style="opacity:0" src="assets/images/flowers.jpg" alt="Flower mosaic in Hanoi, Vietnam">
                     </div>
+                    <script>setUri('flowers')</script>
                 </figure>
             </div>
             <div class="column">
@@ -191,5 +192,6 @@
             <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
         </div>
     </div>
+    <img alt='' onload="hideUri('flowers', 'assets/images/flowers.jpg')" src='assets/images/flowers.jpg' style="display: none;"/>
 </body>
 </html>

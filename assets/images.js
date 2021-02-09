@@ -1,7 +1,8 @@
 function hideUri(element_id, new_background_url) {
-    var blurry_slide = document.getElementById(element_id);
-    blurry_slide.style.backgroundImage = 'url(' + new_background_url + ')';
-    blurry_slide.classList.remove("blurme");
+    var el = document.getElementById(element_id);
+    el.style.backgroundImage = '';
+    el.firstElementChild.style.opacity = '100';
+    el.classList.remove("blurme");
 }
 
 function setUri(element_id) {
