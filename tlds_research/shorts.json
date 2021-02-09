@@ -1,0 +1,40 @@
+{
+    "red": {
+        "price": 4.16,
+        "domains": [
+            "Derek, I like red! derekilike.red"
+        ]
+    },
+    "in": {
+        "price": 5.66,
+        "domains": [
+            "Senile felines. senilefel.in/es"
+        ]
+    },
+    "de": {
+        "price": 5.74,
+        "domains": [
+            "Ed is on no side. edisonnoonsi.de"
+        ]
+    },
+    "co": {
+        "price": 6.66,
+        "domains": [
+            "Draw, O coward. draw-o.co/ward"
+        ]
+    },
+    "ca": {
+        "price": 10.0,
+        "domains": [
+            "Was it a cat I saw? wasita.ca/tisaw"
+        ]
+    },
+    "es": {
+        "price": 17.51,
+        "domains": [
+            "Draw noses onward! drawnos.es/onward",
+            "Ye slew Wesley. yesleww.es/ley",
+            "Senile felines. senilefelin.es"
+        ]
+    }
+}

@@ -52,6 +52,8 @@ tld_sorted = sorted(tld_pal_dict, key=lambda a: tld_pal_dict[a][0])
 tld_pal_dict_sorted = {}
 
 for tld in tld_sorted:
+    # breakpoint()n
+    # print(tld_pal_dict[tld], "\n\n")
     tld_pal_dict_sorted[tld] = tld_pal_dict[tld]
     print(tld)
     for x in tld_pal_dict[tld]:
@@ -61,5 +63,6 @@ for tld in tld_sorted:
 
 
 #print(tld_sorted)
-#pprint(tld_pal_dict_sorted, sort_dicts=False)
+with open('sorted.json', 'w') as fout:
+    json.dump(tld_pal_dict_sorted, fout, indent=4)
 
