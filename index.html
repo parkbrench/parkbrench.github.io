@@ -16,6 +16,7 @@
   </filter>
 </svg>
 <body>
+    <img alt='' onload="hideUri('flowers', 'assets/images/flowers.jpg')" src='assets/images/flowers.jpg' style="display: none;"/>
     <div class="section mr-6 ml-6">
 
       <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
@@ -43,8 +44,10 @@
       </nav>
         <div class="columns is-right mt-6" style="display: flex; flex-wrap:wrap-reverse;">
             <div class="column has-text-centered">
-                <figure class="image is-256x256">
+                <figure class="image">
                     <img src="assets/images/flowers.jpg" alt="Flower mosaic in Hanoi, Vietnam">
+                    <span id="flowers" onload="setUri('flowers')" class="blurme" style="background-size: cover;">   
+                    </div>
                 </figure>
             </div>
             <div class="column">
