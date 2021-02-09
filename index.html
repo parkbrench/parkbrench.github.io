@@ -10,20 +10,30 @@
 </head>
 <body>
     <div class="section mr-6 ml-6">
-        <div class="container is-centered mb-6">
-            <div class="title has-text-centered is-1 has-text-info">
-                <a class="has-text-info" target="_blank" href="https://sadieparker.net/">🅢</a> <a href="https://en.wikipedia.org/wiki/Saturn" target="_blank">🪐</a> <a class="has-text-info" target="_blank" href="http://martinbreuss.com/">🅜</a>
-            </div>
-        </div>
-        <column class="has-text-centered">
-          <div class="buttons is-centered mb-5">
-              <button class="button is-info"><a class="has-text-white" href="#questions" target="blank">Questions</a></button>
-              <button class="button is-info"><a class="has-text-white" href="#comments">Say Hi</a></button>
-              <button class="button is-info"><a class="has-text-white" href="https://photos.app.goo.gl/RJFWtSZ4hyoq3Tko8" target="blank">Photos</a></button>
 
+      <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand ml-6">
+          <div class="title is-1 mt-4">
+            <a class="has-text-info" target="_blank" href="https://sadieparker.net/">🅢</a> <a href="https://en.wikipedia.org/wiki/Saturn" target="_blank">🪐</a> <a class="has-text-info" target="_blank" href="http://martinbreuss.com/">🅜</a>
           </div>
-        </column>
-        <div class="columns is-right" style="display: flex; flex-wrap:wrap-reverse;">
+      
+          <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navig">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
+        </div>
+        <div id="navig" class="navbar-menu mr-6">
+          <div class="navbar-start">
+          </div>
+          <div class="navbar-end">
+            <a class="navbar-item" href="#questions">Questions</a>
+            <a class="navbar-item" href="https://photos.app.goo.gl/RJFWtSZ4hyoq3Tko8" target="_blank">Photos</a>
+            <a class="navbar-item" href="#comments">Say Hi</a>
+          </div>
+        </div>
+      </nav>
+        <div class="columns is-right mt-6" style="display: flex; flex-wrap:wrap-reverse;">
             <div class="column has-text-centered">
                 <figure class="image is-256x256">
                     <img src="flowers.jpg" alt="Flower mosaic in Hanoi, Vietnam">
@@ -70,8 +80,8 @@
             </div>
         </div>
 
-<column id="questions">
-    <div class="">
+<column id="questions" class="mt-6">
+    <div class="content mt-6">
     <h3 class="title is-3">Other Questions</h3>
     <p>Please feel free to reach out with any questions, but we thought up a few here.</p>
     <ul>
@@ -117,10 +127,7 @@
     </ul>
     </div>
 </column>
-
-        <div class="column is-" >
-            
-        </div>
+<script src="toggle.js"></script>
         <div class="container mt-6" id="comments">
             <div id="disqus_thread"></div>
             <script>
